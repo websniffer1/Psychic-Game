@@ -1,0 +1,67 @@
+body {
+    background-image: url("../images/champions-league.jpg");
+    width: 100%
+}
+
+h1 {
+    color: antiquewhite;
+    font-size: 43px;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right:10%;
+    padding: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+
+img {
+    margin: 10px;
+}
+
+
+.sidebar {
+    padding: 5px;
+    position: relative;
+    margin-bottom: 5px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+}
+
+span {
+    padding-left: 3px;
+    padding-right:3px;
+    background-color: rgb(20, 230, 230); 
+    font-size: 15px;
+}
+
+.background {
+
+}
+
+.container {
+    color: beige;
+    margin-top: 5px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5px;
+    text-align: center;
+    border: solid 3px rgb(231, 146, 18);
+}
+
+#currentword {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#scoreboard {
+    padding: 20px;
+}

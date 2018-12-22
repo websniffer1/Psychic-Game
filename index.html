@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Word Guess Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+    <body>
+        <!--Main Heading-->
+        <div class="heading">
+            <h1>Word Guess Game</h1>
+        </div>
+
+        <div class="background">
+            <div class="container">
+
+                <!--Changing Image based on correct answers-->
+                <h2>Press any key to get started!</h2>
+                <div>
+                    <img id="image" src="./assets/images/champions-league.gif" width="40%" height="200">
+                </div>
+
+                <!--Current Word Container-->
+                <div>
+                    <h3 id="currentword">_ _ _ _ _</h3>
+                </div>
+                <div id="scoreboard">
+                    <!--Guesses left Container-->
+                    <div class="sidebar">
+                        <h3>NUMBER OF GUESSES REMAINING:
+                            <span id="guessesremaining"></span>
+                        </h3>
+                    </div>
+                    <!--Wrong guesses container-->
+                    <div class="sidebar">
+                        <h3>LETTERS YOU GUESSED WRONG:
+                            <span id="playerguesses"></span>
+                        </h3>
+                    </div>
+
+                    <!--Wins counter Container-->
+                    <div class="sidebar">
+                        <h3>WINS:
+                            <span id="winstracker"></span>
+                        </h3>
+                    </div>
+                    <!--Loss counter Container-->
+                    <div class="sidebar">
+                        <h3>LOSSES:
+                            <span id="losstracker"></span>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--AUDIO FILES-->
+        <div>
+            
+            <audio id="neymar">
+                <source src="/assets/audio/psg-aller.mp3" type="audio/mp3">
+            </audio>
+            
+            <audio id="ronaldo">
+                <source src="/assets/audio/real_madrid.mp3" type="audio/mp3">
+            </audio>
+            
+            <audio id="modric">
+                <source src="/assets/audio/real_madrid.mp3" type="audio/mp3">
+            </audio>
+            
+            <audio id="kane">
+                <source src="/assets/audio/champions_league.mp3" type="audio/mp3">
+            </audio>
+
+            <audio id="messi">
+                <source src="/assets/audio/barcelona_hymn.mp3" type="audio/mp3">
+            </audio>
+
+            <audio id="suarez">
+                <source src="/assets/audio/barcelona_hymn.mp3" type="audio/mp3">
+            </audio>
+
+            <audio id="hazard">
+                <source src="/assets/audio/champions_league.mp3" type="audio/mp3">
+            </audio>
+
+        </div>
+
+
+
+
+        <script src="assets/javascript/game.js"></script>
+
+    </body>
+
+</html>
