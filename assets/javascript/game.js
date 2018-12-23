@@ -127,7 +127,7 @@ function audio() {
         suarez.pause();
         hazard.pause();
         kane.play();
-        document.getElementById("image").src = "/assets/images/kane.gif";
+        document.getElementById("image").src = "./assets/images/kane.gif";
     }
     //Modric Audio & Image
     //---------------------------
@@ -139,7 +139,7 @@ function audio() {
         suarez.pause();
         hazard.pause();
         modric.play();
-        document.getElementById("image").src = "/assets/images/modric.gif";
+        document.getElementById("image").src = "./assets/images/modric.gif";
     }
 };
 
